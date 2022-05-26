@@ -2,10 +2,19 @@
 <html lang="en">
 
 <head>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script>  
+    $(function(){ 
+      $("#123").load("header.html");  
+      //$("#footer").load("footer.html");  
+    }); 
+  </script> 
+
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Selecao Bootstrap Template - Index</title>
+  <title>InSTA UFPR Bootstrap Template - Index</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -30,8 +39,8 @@
   <link href="assets/css/style.css" rel="stylesheet">
 
   <!-- =======================================================
-  * Template Name: Selecao - v4.7.0
-  * Template URL: https://bootstrapmade.com/selecao-bootstrap-template/
+  * Template Name: InSTA UFPR - v4.7.0
+  * Template URL: https://bootstrapmade.com/InSTA UFPR-bootstrap-template/
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
@@ -39,48 +48,7 @@
 
 <body>
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top d-flex align-items-center  header-transparent ">
-    <div class="container d-flex align-items-center justify-content-between">
-
-      <div class="logo">
-        <h1><a href="index.html">Selecao</a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-      </div>
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
-          <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li>
-          <li><a class="nav-link scrollto" href="#team">Team</a></li>
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
-    </div>
-  </header><!-- End Header -->
+  <div id="123"></div>
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex flex-column justify-content-end align-items-center">
@@ -89,7 +57,7 @@
       <!-- Slide 1 -->
       <div class="carousel-item active">
         <div class="carousel-container">
-          <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Selecao</span></h2>
+          <h2 class="animate__animated animate__fadeInDown">Welcome to <span>InSTA UFPR</span></h2>
           <p class="animate__animated fanimate__adeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
           <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
         </div>
@@ -177,6 +145,7 @@
     </section><!-- End About Section -->
 
     <!-- ======= Features Section ======= -->
+    <!--
     <section id="features" class="features">
       <div class="container">
 
@@ -311,6 +280,7 @@
     </section><!-- End Features Section -->
 
     <!-- ======= Cta Section ======= -->
+    <!--
     <section id="cta" class="cta">
       <div class="container">
 
@@ -328,6 +298,7 @@
     </section><!-- End Cta Section -->
 
     <!-- ======= Services Section ======= -->
+    <!--
     <section id="services" class="services">
       <div class="container">
 
@@ -387,6 +358,7 @@
     </section><!-- End Services Section -->
 
     <!-- ======= Portfolio Section ======= -->
+    <!--
     <section id="portfolio" class="portfolio">
       <div class="container">
 
@@ -500,6 +472,7 @@
     </section><!-- End Portfolio Section -->
 
     <!-- ======= Testimonials Section ======= -->
+    <!--
     <section id="testimonials" class="testimonials">
       <div class="container">
 
@@ -524,6 +497,7 @@
               </div>
             </div><!-- End testimonial item -->
 
+            <!--
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <p>
@@ -537,6 +511,7 @@
               </div>
             </div><!-- End testimonial item -->
 
+            <!--
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <p>
@@ -550,6 +525,7 @@
               </div>
             </div><!-- End testimonial item -->
 
+            <!--
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <p>
@@ -563,6 +539,7 @@
               </div>
             </div><!-- End testimonial item -->
 
+            <!--
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <p>
@@ -576,6 +553,7 @@
               </div>
             </div><!-- End testimonial item -->
 
+          <!--
           </div>
           <div class="swiper-pagination"></div>
         </div>
@@ -584,6 +562,7 @@
     </section><!-- End Testimonials Section -->
 
     <!-- ======= Pricing Section ======= -->
+    <!--
     <section id="pricing" class="pricing">
       <div class="container">
 
@@ -669,6 +648,7 @@
     </section><!-- End Pricing Section -->
 
     <!-- ======= F.A.Q Section ======= -->
+    <!--
     <section id="faq" class="faq">
       <div class="container">
 
@@ -739,6 +719,7 @@
     </section><!-- End F.A.Q Section -->
 
     <!-- ======= Team Section ======= -->
+    <!--
     <section id="team" class="team">
       <div class="container">
 
@@ -827,6 +808,7 @@
     </section><!-- End Team Section -->
 
     <!-- ======= Contact Section ======= -->
+    <!--
     <section id="contact" class="contact">
       <div class="container">
 
@@ -898,7 +880,7 @@
   <!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="container">
-      <h3>Selecao</h3>
+      <h3>InSTA UFPR</h3>
       <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
       <div class="social-links">
         <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
@@ -908,13 +890,13 @@
         <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
       </div>
       <div class="copyright">
-        &copy; Copyright <strong><span>Selecao</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>InSTA UFPR</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/selecao-bootstrap-template/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/InSTA UFPR-bootstrap-template/ -->
         Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
     </div>
